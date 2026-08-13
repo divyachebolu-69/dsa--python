@@ -1,0 +1,11 @@
+def second_largest_smallest(arr):
+    unique_sorted = sorted(set(arr))
+    if len(unique_sorted) < 2:
+        return None, None
+    return unique_sorted[-2], unique_sorted[1]
+
+arr = [12, 35, 1, 10, 34, 1]
+print("Array:", arr)
+second_max, second_min = second_largest_smallest(arr)
+print("Second largest:", second_max)
+print("Second smallest:", second_min)
