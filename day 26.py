@@ -1,4 +1,4 @@
-nums = sorted([9, 6, 7, 3, 2, 5])        
+nums = sorted([41, 21, 41, 11, 21, 51])         
 unique = [nums[0]]
 
 for n in nums[1:]:
